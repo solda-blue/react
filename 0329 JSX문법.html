@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JSX & babel cdn -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // 함수 형태로 컴포넌트 작성
+        function MyApp() {
+            // 자바스크립트의 요소 사용가능(변수/연산자 등);
+            const name = 'React';
+            // return을 통해 화면에 출력되는 html 작성
+            return (
+                // 반드시 부모요소는 하나만 있어야 한다
+                <div>
+                    <h1>JSX로 접근하는 리액트 {name}</h1>
+                    <p>먼저 하나의 태그로 감싸서 전체 내용을 출력합니다</p>
+                    <p>원하는 대로 html 내용을 작성할 수 있습니다</p>
+                </div>
+            )
+        }
+
+        // html에서 가상돔을 출력할 공간을 가져와서 연결
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+        // 원하는 html코드를 화면에 출력
+        // html 코드를 가진 컴포넌트를 출력
+        // < /> 태그처럼 불러와서 사용
+        root.render(<MyApp />);
+    </script>
+</body>
+</html>

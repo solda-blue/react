@@ -1,2 +1,13 @@
-/test
-.DS_Store
+/first-react/node_modules
+/first-react/.DS_Store
+/first-react/.pnp
+/first-react/pnp.js
+/first-react/coverage
+/first-react/build
+/first-react/env.local
+/first-react/env.development.local
+/first-react/env.test.local
+/first-react/env.production.local
+/first-react/npm-debug.log*
+/first-react/yarn-debug.log*
+/first-react/yarn-error.log*

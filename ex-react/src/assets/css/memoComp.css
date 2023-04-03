@@ -1,0 +1,71 @@
+.container {
+    padding: 20px;
+}
+h3 {
+    color: #33b67a;
+}
+.input-box {
+    display: flex;
+    width: 380px;
+    justify-content: center;
+}
+input {
+    width: 150px;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+.btn-insert {
+    margin-left: 5px;
+    padding: 0 15px;
+    background-color: #33b67a;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-insert:hover {
+    cursor: pointer;
+}
+
+table {
+    margin-top: 15px;
+    border-collapse : collapse;
+    border-spacing : 0;
+}
+.thead {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.thead tr td{
+    padding: 5px 25px;
+    background-color: #33b67a;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+tbody {
+    text-align: center;
+    font-size: 0.9rem;
+}
+tbody tr td {
+    padding: 3px 0;
+}
+.delBtn {
+    border: 0;
+    background-color: transparent;
+    color: #ff4552;
+}
+.delBtn:hover {
+    cursor: pointer;
+    background-color: #ff4552;
+    color: white;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.memo {
+    width: 100px;
+    overflow :hidden;
+}

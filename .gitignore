@@ -11,3 +11,17 @@
 /first-react/npm-debug.log*
 /first-react/yarn-debug.log*
 /first-react/yarn-error.log*
+
+/ex-react/node_modules
+/ex-react/.DS_Store
+/ex-react/.pnp
+/ex-react/pnp.js
+/ex-react/coverage
+/ex-react/build
+/ex-react/env.local
+/ex-react/env.development.local
+/ex-react/env.test.local
+/ex-react/env.production.local
+/ex-react/npm-debug.log*
+/ex-react/yarn-debug.log*
+/ex-react/yarn-error.log*
